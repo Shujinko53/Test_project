@@ -9,4 +9,6 @@ $(document).ready(function() {
             phone: "Пожалуйста, введите Ваш номер"
         }
     });
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
 });
