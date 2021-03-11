@@ -13,8 +13,8 @@
 			<h1 class="form__title">Запись на бесплатную консультацию</h1>
 			<p class="form__subtitle">Заполните форму, с вами свяжется врач-трансплантолог и ответит на все ваши вопросы</p>
 			<form action="#" class="feed-form">
-				<input type="text" name="name" placeholder="Введите ваше имя" required>
-				<input type="number" name="phone" placeholder="Введите номер телефона" required>
+				<input type="text" name="name" placeholder="Введите ваше имя" minlength="2">
+				<input type="number" name="phone" placeholder="Введите номер телефона" minlength="11">
 				<div class="form__acc">
 					<label for="checkbox">
 						<input type="checkbox" checked="checked" id="checkbox">
@@ -28,6 +28,9 @@
 			</form>
 		</div>
 	</section>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
