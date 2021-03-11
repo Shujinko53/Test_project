@@ -115,6 +115,15 @@
         border: none;
         border-radius: 30px;
     }
+
+    input.error {
+        border: 2px solid red;  
+        border-radius: 30px;
+    }
+
+    label.error {
+        border: none;
+    }
 }
 
 @media (max-width: 600px) {
